@@ -1,0 +1,47 @@
+//activit_main.xml this is a xml file which runs on Android Studio
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/happy_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:text="Happy Birthday!"
+        android:padding="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="36sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif"
+        android:text="From: Vrushit"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="36sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/androidparty" />
+
+
+
+
+</RelativeLayout>
